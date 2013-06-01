@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Futura_Md_BT;
+    src: url(fonts/Futura_Md_BT_Medium.ttf);
+    }
+body        { background-image: url("img/body.png"); background-repeat: repeat}
+.headerWR   { background-image: url("img/bodyHeaderBG.png"); background-repeat: repeat-x; overflow: hidden }
+.wrapper    { width: 1278px; margin:auto; position: relative;  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+             -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);  box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.clearfix           { clear: both}
+
+     /*Header*/
+
+.header a   { font-family:  Futura_Md_BT;  color: #d7d5d8;  text-decoration: none;}
+.header     { background-image: url("img/BG.png"); height: 622px; position: relative}
+#logo       { margin-left: 166px; margin-top: 30px; float: left; padding-bottom: 28px}
+
+/*NAV*/
+.nav        { float: right;   border-bottom: 1px black solid; padding-left: 60px; padding-right:  40px }
+#FB         { margin: 34px 18px 0px 0px}
+#tw         { margin: 34px 17px 0px 0px;}
+.nav a      { font-family:  Futura_Md_BT; font-size: 12px; color: #d7d5d8;  text-decoration: none; padding-right: 4px;
+              padding-top: 55px; padding-bottom: 5px }
+i.headerI  {  background-image: url("img/headerBrVert.png"); width: 6px; height: 77px; display: inline-block; padding-bottom: 5px}
+
+/*menu*/
+.menu       { background-image: url("img/panel.png"); height: 68px; clear: both; overflow: hidden}
+.menu a     { font-family:  Futura_Md_BT; font-size: 25px; color: #d7d5d8;  text-decoration: none;}
+.submenu    { margin-top: 5px}
+.submenu a  { font-size: 14px; padding-left: 5px }
+.submenu a.first { border-right: 1px #d7d5d8 solid; padding-left: 10px; padding-right: 10px}
+a.mainBut   { margin-top: 5px; display: block; padding-left: 7px}
+.home       { display: inline-block; background-image: url("img/homeBG.png"); height: 69px; width: 240px; margin-left: 168px;
+              background-position: 0 -2px; margin-right: -7px}
+.gallery    { display: inline-block; background-image: url("img/galleryBG.png"); height: 69px; width: 240px; background-position: 0 -2px;
+              margin-right: -7px}
+.about      { display: inline-block; background-image: url("img/aboutBG.png"); height: 69px; width: 240px; background-position: 0 -2px;
+              margin-right: -7px}
+.service    { display: inline-block; background-image: url("img/serviceBG.png"); height: 69px; width: 239px; background-position: 0 -2px;
+               margin-right: -7px}
+
+/*Slider*/
+.slider             { background-image: url("img/Tatoo.png"); height: 398px; position: relative}
+.slider img         { margin-left: 168px; margin-top: 43px}
+.slider:before      { content:""; position:absolute; width: 87px; height: 87px; background-image: url("img/leftarrow.png");
+                       top: 166px; left: 70px}
+.slider:after       { content:""; position:absolute; width: 87px; height: 87px; background-image: url("img/arrowright.png");
+                      top: 166px; left: 1128px}
+
+/*body*/
+.body               { position:absolute; overflow: hidden; opacity: 0.5; z-index: -1;  height: 450px; width: 100%; bottom: 0px}
+.graph              { background-image: url("img/graphBG.png"); background-repeat: repeat; position: relative; padding-bottom: 150px; z-index: 2;}
+article             { float: left; width: 265px;  padding-left: 25px; padding-right: 25px}
+article.firstArt    { margin-left: 164px; }
+article h5          { font-family:  Futura_Md_BT;  color: #282828; font-size: 20px;  padding-top: 30px ; margin-bottom: 0;
+                      text-align: center; display: block}
+article p           { font-family:  Futura_Md_BT;  color: #282828; font-size: 14px; padding-bottom: 17px}
+ul                  { list-style: none outside url("img/list.png"); padding: 0 20px; margin: 0;  }
+article:before      {  content:""; position:absolute; width: 5px; height: 452px; background-image: url("img/artBreak.png");
+                        top: 98px; left: 474px}
+article:after      {  content:""; position:absolute; width: 5px; height: 452px; background-image: url("img/artBreak.png");
+                        top: 98px; left: 791px}
+button              { background-image: url("img/inactButton.png"); border: none; float: right;  width: 86px; height: 27px;
+                     border-radius: 5px; margin-top: 20px;  }
+button:hover        { background-image: url("img/actButton.png")}
+i                   { background-image: url("img/titlebreak.png"); width: 265px; height: 3px; display: inline-block}
+i.dash              { background-image: url("img/dash.png"); width: 265px; height: 8px; display: inline-block}
+i.parBreak          { background-image: url("img/paragrbeak.png"); width: 265px; height: 2px; display: inline-block}
+.titleWR            { height: 78px}
+
+
+
+/*footer*/
+
+footer          { background-image: url("img/bodyHeaderBG.png"); background-repeat: repeat-x; overflow: hidden; clear: both}
+.footer         { padding-bottom: 50px; height: 200px }
+footer h6       { font-family:  tahoma ;  color: #fefefe;  font-size:15px; text-align:  center; padding: 0px; margin: 0px }
+.footTitl       { width: 276px; padding-top: 20px; margin-bottom: 13px }
+
+i.footI         { width: 248px; height: 4px; background-image: url("img/footBreak.png"); display: inline-block}
+.lftFoot        { float: left;  margin-left: 184px; width: 511px}
+.rightFoot      { float: left; margin-left: 130px; width: 330px}
+footer a        { font-family:  tahoma;  color: #a9d2ff; font-size: 12px; text-decoration: none;  border-right: 1px solid #a9d2ff;
+                padding: 0 5px; padding-left: 3px}
+
